@@ -1,0 +1,37 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "susy";
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+
+$total-columns  : 12;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+$show-grid-backgrounds  : true;
+
+
+// ---------------------------------------------------------------------------
+// Compass Configurations
+ $legacy-support-for-ie6 : false;
+ $legacy-support-for-ie7 : false;
+ $experimental-support-for-khtml : false;
+
+
+// ---------------------------------------------------------------------------
+// Site Palette
+
+$link-color:        #0094CC;
+$text-color:        #444;
+$bg-color:          #FFF;
+$quiet-color:       #6C6C6C;
+$dark-color:        #111111;
+
+// ---------------------------------------------------------------------------
+//Font Stacks
+$primary-font:      Helvetica,Arial,sans-serif;
+$secondar-font:     $primary-font;
+$header-font:       Georgia,"Times New Roman",Times,serif;

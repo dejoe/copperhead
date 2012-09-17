@@ -1,0 +1,11 @@
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+
+  #container,#footer {@include container;}
+  
+  nav { @include span-columns(12,12); }
+  
+  #ltCol { @include span-columns(8); }
+  #rtCol { @include span-columns(4 omega); }
+

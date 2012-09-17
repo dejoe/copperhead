@@ -1,0 +1,14 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+@import "compass";
+
+//Reset
+@import "compass/reset";
+
+//Importing Partials
+@import "components/layout.scss";
+@import "components/object.scss";
+@import "components/global.scss";
+
