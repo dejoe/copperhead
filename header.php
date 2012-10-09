@@ -2,7 +2,7 @@
 <html>
     <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-		{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+		<!--{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}-->
         <meta name="color:Text" content="#333333" />
         <meta name="color:Links" content="#84968D" />
         <meta name="color:Headings" content="#84968D" />

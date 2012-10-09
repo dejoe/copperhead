@@ -1,2 +1,21 @@
 /* This is our awesome Object scss which will do the major heavy lifting for us.
    Hopefully it is as awesome as it sounds! Have fun guys! */
+  
+%shell {
+  border: 1px solid #fff;
+  background-color:$modulebg-color;
+}
+
+%header {
+  font-size:1.5em;
+  font-weight:bold;
+}
+%item {
+  border-bottom:10px;
+  border-top:1px solid;
+}
+
+%galleryItem {
+  /* We need to write a include an include, so that this can do it right. */
+  
+}

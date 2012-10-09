@@ -1,10 +1,42 @@
 </head><body>
  <div id="wrapper" class="container_12">
         <div id="container">
+        	<div id="header">
+	    	    <div id="navbar">
+	                <ul class="clearfix">
+	                    <li class="homeMenu">
+	                        <a href="/" title="Home" alt="Home">Home</a>
+	                    </li>
+	                    <li class="askMenu">
+	                        <a href="/ask">Ask</a>
+	                    </li>
+	
+	                    <li>
+	                        <a href="/random">Random</a>
+	                    </li>
+	                    <li>
+	                        <a href="/liked/by/fractaltheme" target="_blank">Likes</a>
+	                    </li>
+	                    <li class="archiveMenu">
+	                        <a href="/archive">Archive</a>
+	                    </li>
+	                    <li class="rssMenu">
+	                        <a href="http://fractaltheme.tumblr.com/rss" target="_blank">RSS</a>
+	                    </li>
+	
+	                    <li>
+	                        <a href="/flickr">Photo</a>
+	                    </li>
+	                    <li>
+	                        <a href="/music">Music</a>
+	                    </li>
+	
+	                </ul>
+	            </div>
+	            <!-- END NAVBAR -->
+                <h1 id="siteLogo"><a id="pageTitleText" href="/">Fractal</a><div class="clear"></div></h1>
+            </div>
             <div id="ltCol" >
-                <div id="header">
-                    <h1 id="siteLogo"><a id="pageTitleText" href="/">Fractal</a><div class="clear"></div></h1>
-                </div>
                 <div id="mainContent">
                     <ol id="posts">
                         <li class="post">
@@ -569,38 +601,6 @@
             <!-- END LTCOL -->
 
             <div id="rtCol" class="grid_4">
-                <div id="navbar">
-                    <ul class="clearfix">
-                        <li class="homeMenu">
-                            <a href="/" title="Home" alt="Home">Home</a>
-                        </li>
-                        <li class="askMenu">
-                            <a href="/ask">Ask</a>
-                        </li>
-
-                        <li>
-                            <a href="/random">Random</a>
-                        </li>
-                        <li>
-                            <a href="/liked/by/fractaltheme" target="_blank">Likes</a>
-                        </li>
-                        <li class="archiveMenu">
-                            <a href="/archive">Archive</a>
-                        </li>
-                        <li class="rssMenu">
-                            <a href="http://fractaltheme.tumblr.com/rss" target="_blank">RSS</a>
-                        </li>
-
-                        <li>
-                            <a href="/flickr">Photo</a>
-                        </li>
-                        <li>
-                            <a href="/music">Music</a>
-                        </li>
-
-                    </ul>
-                </div>
-                <!-- END NAVBAR -->
 
                 <form action="/search" method="get" id="searchForm">
                     <input class="textbox" type="text" name="q" value="">

@@ -29,9 +29,16 @@ $text-color:        #444;
 $bg-color:          #FFF;
 $quiet-color:       #6C6C6C;
 $dark-color:        #111111;
+$modulebg-color:    #abcdef;
 
 // ---------------------------------------------------------------------------
 //Font Stacks
+
 $primary-font:      Helvetica,Arial,sans-serif;
 $secondar-font:     $primary-font;
 $header-font:       Georgia,"Times New Roman",Times,serif;
+$logo-font:         Georgia,"Times New Roman",Times,serif;
+
+//Base Font Size - Veritical Rhythm
+$base-font-size : 16px ;
+$base-line-height : 24px ;

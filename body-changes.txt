@@ -1,0 +1,5 @@
+1. Create a div with #header. 
+	1. Navigation Moved from sidebar to the right!
+	2. Header Moved out of RtCol. 
+
+

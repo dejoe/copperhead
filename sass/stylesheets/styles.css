@@ -63,9 +63,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* -------------------------------------------------------------------------*/
-/* Layout */
-/* line 5, ../sass/components/_layout.scss */
+/* This is our awesome Object scss which will do the major heavy lifting for us.
+   Hopefully it is as awesome as it sounds! Have fun guys! */
+/* ^^^^^^^^^^^^^^^^^[ COMMON Styles ]^^^^^^^^^^^^^^^^^ */
+/* line 61, c:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, c:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* line 5, ../sass/components/_common.scss */
+body {
+  color: #444444;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 10, ../sass/components/_common.scss */
+a, a:active, a:hover {
+  text-decoration: none;
+  color: #0094cc;
+}
+
+/* line 15, ../sass/components/_common.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* line 19, ../sass/components/_common.scss */
+h1 {
+  font-size: 1.875em;
+  line-height: 1.6em;
+}
+
+/* line 22, ../sass/components/_common.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* line 26, ../sass/components/_common.scss */
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+
+/* ^^^^^^^^^^^^^^^^^[ LAYOUT Styles ]^^^^^^^^^^^^^^^^^ */
+/* line 4, ../sass/components/_layout.scss */
 #container, #footer {
   max-width: 59em;
   margin-left: auto;
@@ -80,27 +128,79 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   clear: both;
 }
 
-/* line 7, ../sass/components/_layout.scss */
+/* line 6, ../sass/components/_layout.scss */
 nav {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
 }
 
-/* line 9, ../sass/components/_layout.scss */
+/* line 8, ../sass/components/_layout.scss */
 #ltCol {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
 }
 
-/* line 10, ../sass/components/_layout.scss */
+/* line 9, ../sass/components/_layout.scss */
 #rtCol {
   width: 32.20339%;
   float: right;
   margin-right: 0;
 }
 
-/* This is our awesome Object scss which will do the major heavy lifting for us.
-   Hopefully it is as awesome as it sounds! Have fun guys! */
-/*This is again tunring out to be very awesome*/
+/* ^^^^^^^^^^^^^^^^^[ HEADER Styles ]^^^^^^^^^^^^^^^^^ */
+/*Site Logo Styles*/
+/* line 4, ../sass/components/_all.scss */
+#siteLogo {
+  margin: 65px 0 20px;
+  overflow: hidden;
+}
+/* line 9, ../sass/components/_all.scss */
+#siteLogo a#pageTitleText:hover,
+#siteLogo a#pageTitleText {
+  color: #444444;
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3em;
+  line-height: 1.5em;
+  float: left;
+  padding: 2px 36px;
+  text-decoration: none;
+}
+
+/* Navigation Styles */
+/* line 22, ../sass/components/_all.scss */
+#navbar {
+  margin-top: 4px;
+}
+/* line 24, ../sass/components/_all.scss */
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+/* line 60, c:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#navbar ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 48, c:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#navbar ul li:first-child, #navbar ul li.first {
+  padding-left: 0;
+}
+/* line 49, c:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#navbar ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, c:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#navbar ul li.last {
+  padding-right: 0;
+}

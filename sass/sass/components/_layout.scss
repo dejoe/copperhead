@@ -1,6 +1,5 @@
-/* -------------------------------------------------------------------------*/
-/* Layout */
 
+/* ^^^^^^^^^^^^^^^^^[ LAYOUT Styles ]^^^^^^^^^^^^^^^^^ */
 
   #container,#footer {@include container;}
   
@@ -8,4 +7,3 @@
   
   #ltCol { @include span-columns(8); }
   #rtCol { @include span-columns(4 omega); }
-

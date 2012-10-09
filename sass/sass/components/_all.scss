@@ -1,0 +1,27 @@
+/* ^^^^^^^^^^^^^^^^^[ HEADER Styles ]^^^^^^^^^^^^^^^^^ */
+/*Site Logo Styles*/ 
+
+#siteLogo {
+  margin: 65px 0 20px;
+  @include clearfix();
+  
+  a#pageTitleText:hover,
+  a#pageTitleText {
+    color: $text-color;
+    display: block;
+    font-family: $logo-font;  
+    @include adjust-font-size-to(48px);
+    float: left;
+    padding: 2px 36px; 
+    text-decoration: none;
+  }
+}
+
+
+/* Navigation Styles */
+#navbar {
+  margin-top:4px;
+  ul {
+    @include horizontal-list(20px,"left");
+  }
+}
