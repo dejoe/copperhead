@@ -26,10 +26,14 @@ $show-grid-backgrounds  : true;
 
 $link-color:        #0094CC;
 $text-color:        #444;
-$bg-color:          #FFF;
-$quiet-color:       #6C6C6C;
+$bg-color:          #fff;
+$quiet-color:       #ccc;
 $dark-color:        #111111;
-$modulebg-color:    #abcdef;
+$modulebg-color:    #eee;
+
+
+// Sub Palette
+$border-color:       $quiet-color;
 
 // ---------------------------------------------------------------------------
 //Font Stacks
